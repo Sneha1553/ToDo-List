@@ -1,0 +1,84 @@
+/* Reset default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body styling */
+body {
+  width: 600px;
+  margin: auto;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(to right, #ece9e6, #ffffff);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 60px 20px;
+  min-height: 100vh;
+}
+
+/* Container styling */
+#list-container {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Input styling */
+#input {
+  width: 300px;
+  padding: 10px 12px;
+  font-size: 16px;
+  border: 2px solid #ccc;
+  border-radius: 6px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+
+#input:focus {
+  border-color: #dbe3ea;
+  outline: none;
+}
+
+/* Add button styling */
+button {
+  padding: 10px 14px;
+  font-size: 16px;
+  background-color: #9cb37b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* List item styling */
+#list-container li {
+  background-color: #f9f9f9;
+  padding: 12px 16px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Delete button inside list */
+#list-container li button {
+  background-color: #dc3545;
+  padding: 6px 10px;
+  font-size: 14px;
+  border-radius: 4px;
+}
+
+#list-container li button:hover {
+  background-color: #a71d2a;
+}
